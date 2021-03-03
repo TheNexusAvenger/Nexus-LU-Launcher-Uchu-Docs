@@ -10,7 +10,7 @@ play Uchu single-player, complete the server setup and
 the client setup.
 
 * [Server Setup (Uchu)](Server-Setup-Uchu.md)
-* [Client Setup](Client-setup.md)
+* [Client Setup](Client-Setup.md)
 
 # Uchu Is Incomplete
 Uchu is not complete and contains both missing features
