@@ -1,10 +1,11 @@
 # Client Setup
-This document covers setting up the client for
-playing LEGO Universe. This will work with
-*some* but not all LEGO Universe server projects,
-such as [Uchu](https://github.com/uchuserver/uchu).
-If you are using a project that doesn't, like
-[WLUS](https://github.com/wesleyd1124/WLUS),
+This document covers setting up the client for playing
+LEGO Universe. By default, the client is configured
+to use the new TCP/UDP network protocol. This is used
+by some LEGO Universe server projects, such as
+[Uchu](https://github.com/uchuserver/uchu), but not by
+all of them. If you are using a project that doesn't
+use this, like [WLUS](https://github.com/wesleyd1124/WLUS),
 see the section about patches.
 
 # TL;DR
@@ -121,9 +122,10 @@ set of 4 numbers. Once you are done, press "Add".
 
 ![server-entry](images/no-selected-server-with-server.png)
 
-Once you are your server(s), press "Select" next to the
-server you want to play, then press "Play!". The client
-will open and you log in and start playing!
+Once you add your server(s), press "Select" next to the
+server you want to play, then press main the "Play!" button
+after it turns blue. The client will open and you log in
+and start playing!
 
 ![ready-launcher](images/launcher-ready.png)
 

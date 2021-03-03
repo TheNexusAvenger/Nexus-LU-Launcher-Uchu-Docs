@@ -64,7 +64,7 @@ NLUL.CLI.exe server start MyServer
 ```
 
 ## macOS Commands
-For Windows, open a command prompt, and enter
+For macOS, open a terminal window, and enter
 the following to download, create, and run the
 server. You will need to complete the last 2
 steps manually.
@@ -104,7 +104,7 @@ cd ~/nlul.cli
 ```
 
 ## Linux Commands
-For Windows, open a command prompt, and enter
+For Linux, open a terminal window, and enter
 the following to download, create, and run the
 server. You will need to complete the last 2
 steps manually.
