@@ -1,12 +1,6 @@
 # Client Setup
 This document covers setting up the client for playing
-LEGO Universe. By default, the client is configured
-to use the new TCP/UDP network protocol. This is used
-by some LEGO Universe server projects, such as
-[Uchu](https://github.com/uchuserver/uchu), but not by
-all of them. If you are using a project that doesn't
-use this, like [WLUS](https://github.com/wesleyd1124/WLUS),
-see the section about patches.
+LEGO Universe.
 
 # TL;DR
 * Download and run the GUI client for your platform.
@@ -19,16 +13,16 @@ see the section about patches.
 Before running the client, the launcher needs
 to be downloaded. All of the downloads can
 be found from the latest
-[release of Nexus LU Launcher](https://github.com/TheNexusAvenger/Nexus-LU-Launcher/releases/tag/V.0.2.0).
+[release of Nexus LU Launcher](https://github.com/TheNexusAvenger/Nexus-LU-Launcher/releases/tag/V.0.2.1).
 After downloading and opening, you will see the
 following:
 
 ![empty-client](images/empty-client.png)
 
 ## Windows
-From the releases, download `NLUL-GUI-Windows-x64.zip`
+From the releases, download `Nexus-LU-Launcher-Windows-x64.zip`
 and unzip. Optionally, move it somewhere that is not
-your downloads folder. Open `NLUL.GUI.exe` (Nexus LU
+your downloads folder. Open `Nexus-LU-Launcher.exe` (Nexus LU
 Launcher Graphical User Interface) to open the launcher.
 On the first launch, you will get a message from
 Microsoft Defender SmartScreen saying the program can't
@@ -39,7 +33,7 @@ be verified. Click "More Info" and then "Run Anyway".
 ## macOS
 As of version 0.2.0, the macOS release is published
 as a macOS application. From the releases, download
-`NLUL-GUI-macOS-x64.zip`. macOS will automatically
+`Nexus-LU-Launcher-macOS-x64.zip`. macOS will automatically
 unzip it, so you will the application in your downloads.
 Optionally, move it to your Applications folder.
 On the first launch, you will get a message from macOS
@@ -72,10 +66,10 @@ if you haven't set up WINE before. Make sure to search
 your distribution and version, like Ubuntu 20.04 or
 CentOS 8, instead of just "Linux".
 
-Once WINE is set up, download `NLUL-GUI-Linux-x64.zip`
+Once WINE is set up, download `Nexus-LU-Launcher-Linux-x64.zip`
 and unzip it. Optionally, move it somewhere that is not
 where you downloaded it. From the command line,
-open the `NLUL.GUI` (Nexus LU Launcher Graphical User
+open the `Nexus-LU-Launcher` (Nexus LU Launcher Graphical User
 Interface) file. For creating a shortcut, consult a
 guide online since it varies for each desktop interface.
 
@@ -133,8 +127,7 @@ and start playing!
 After downloading the client, "Patches" becomes visible
 on the bottom of the window. If you need to modify, update
 or delete patches for LEGO Universe, you will do it here.
-**For example, if the server project does NOT use TcpUdp,
-like WLUS, you would uninstall it here.**
+
 
 ![launcher-patches](images/launcher-patches.png)
 
@@ -153,6 +146,12 @@ this release."
 ### What is TCP/UDP?
 TCP/UDP (or TcpUdp) is a client mod used by some servers
 projects, like Uchu, for client to server communication.
+
+### What Auto is TCP/UDP?
+Auto TCP/UDP is a patch introduced in V.0.2.1 that automatically
+enables or disables TCP/UDP depending on the server. Previously,
+the patch would need to be manually installed or removed depending
+on the target server.
 
 ### When logging in, it says it "Could not sign you in to LEGO Universe" then showed the characters after a few seconds. Is this normal?
 This is normal. A side effect of using TCP/UDP is that

@@ -30,7 +30,7 @@ server. You will need to complete the last 2
 steps manually.
 ```cmd
 :: Download the CLI tool.
-curl -L https://github.com/TheNexusAvenger/Nexus-LU-Launcher/releases/download/V.0.2.0/NLUL-CLI-Windows-x64.zip --output nlul.cli.zip
+curl -L https://github.com/TheNexusAvenger/Nexus-LU-Launcher/releases/download/V.0.2.1/NLUL-CLI-Windows-x64.zip --output nlul.cli.zip
 mkdir %USERPROFILE%\nlul.cli
 tar -zxf nlul.cli.zip -C %USERPROFILE%\nlul.cli
 del nlul.cli.zip
@@ -70,7 +70,7 @@ server. You will need to complete the last 2
 steps manually.
 ```bash
 # Download the CLI tool.
-curl -L https://github.com/TheNexusAvenger/Nexus-LU-Launcher/releases/download/V.0.2.0/NLUL-CLI-macOS-x64.zip --output nlul.cli.zip
+curl -L https://github.com/TheNexusAvenger/Nexus-LU-Launcher/releases/download/V.0.2.1/NLUL-CLI-macOS-x64.zip --output nlul.cli.zip
 mkdir ~/nlul.cli
 unzip ./nlul.cli.zip -d ~/nlul.cli
 rm ./nlul.cli.zip
@@ -110,7 +110,7 @@ server. You will need to complete the last 2
 steps manually.
 ```bash
 # Download the CLI tool.
-curl -L https://github.com/TheNexusAvenger/Nexus-LU-Launcher/releases/download/V.0.2.0/NLUL-CLI-linux-x64.zip --output nlul.cli.zip
+curl -L https://github.com/TheNexusAvenger/Nexus-LU-Launcher/releases/download/V.0.2.1/NLUL-CLI-linux-x64.zip --output nlul.cli.zip
 mkdir ~/nlul.cli
 unzip ./nlul.cli.zip -d ~/nlul.cli
 rm ./nlul.cli.zip
